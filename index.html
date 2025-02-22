@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Export and Import Web Application</title>
-    <!--Styling -->
-    <link rel="stylesheet" href="styles.css">
+    <title>Github Profile</title>
+    <!--Styling-->
+     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="export-import-container">
-        <header class="titles">
-            <h2>Data Export and Import</h2>
-            <p>Use this application to export the data from the file</p>
+    <section class="profile-search">
+        <header class="title">
+            <h2>GitHub Profile Search</h2>
+            <p>Search your GitHub profile and also explore others.</p>
         </header>
-        <div class="input-output">
-            <label class="upload-file">Upload a File :</label>
-                <input type="file" id="csv-file">
-                <table id="table" border="1"></table>
-                <button class="btn">Export Data</button>
+        <div class="search-container">
+            <div class="search-elements-container">
+                <input type="text" id="github-profile-search" class="search" placeholder="eg : bipin-Alt">
+                <button id="search-btn" class="btn">Search</button>
+            </div>
+            <div class="loader"></div>
+            <div class="output">
+
+            </div>
         </div>
     </section>
-    <!--JavaScript-->
-    <script src="script.js"></script>
+   <!--JavaScript-->
+   <script src="script.js"></script> 
 </body>
 </html>
