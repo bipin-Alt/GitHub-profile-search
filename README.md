@@ -23,3 +23,6 @@ The app fetches data from the GitHub API, shows a loader during the process, and
 - HTML, CSS, JavaScript
 - GitHub API for data fetching
 - Custom CSS with animations
+
+#Check this out
+try this web app here : https://bipin-alt.github.io/GitHub-profile-search/
